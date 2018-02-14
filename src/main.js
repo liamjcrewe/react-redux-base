@@ -3,13 +3,13 @@ import { render } from 'react-dom'
 import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 
-import appReducers from './reducers'
-import App from './components/App'
+import App from './App'
+import reducer, { baseInitialState } from './ducks'
 
-let store = createStore(appReducers)
+let store = createStore(reducer, baseInitialState)
 
 render(
-  <Provider store={ store }>
+  <Provider store={store}>
     <App />
   </Provider>,
   document.getElementById('main')
