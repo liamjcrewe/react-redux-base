@@ -8,7 +8,7 @@ const mapStateToProps = state => ({
 })
 
 const mapDispatchToProps = dispatch => ({
-  increment: _ => dispatch(increment())
+  increment: () => dispatch(increment())
 })
 
 export default connect(
