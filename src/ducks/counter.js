@@ -1,6 +1,6 @@
 export const INCREMENT = 'INCREMENT'
 
-export const increment = _ => ({
+export const increment = () => ({
   type: INCREMENT
 })
 

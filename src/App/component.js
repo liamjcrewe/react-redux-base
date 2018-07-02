@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 
 import Counter from '../Counter'
 
-export default _ => (
+export default () => (
   <Fragment>
     <Counter />
   </Fragment>
