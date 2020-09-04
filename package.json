@@ -24,7 +24,7 @@
     "babelify": "^8.0.0",
     "browserify": "^16.2.2",
     "envify": "^4.1.0",
-    "lodash.merge": "^4.6.1",
+    "lodash.merge": "^4.6.2",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
